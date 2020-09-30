@@ -1,0 +1,363 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+body{
+    margin: 0;
+    padding:  0;
+    font-family: 'Titillium Web', sans-serif;
+}
+p{
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+/*nav header section start*/
+#nav-header{
+    width: 100%;
+    min-height: 599px;
+    background: #87509c;
+}
+.navbar{
+    background: #87509c!important;
+    padding: 68px 0;
+}
+.navbar-brand{
+    width: 123px;
+    height: 42px;
+}
+.navbar-brand img{
+    display: block;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: #fff!important;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.home{
+    background-color: #643a79;
+    width:82px;
+    padding: 5px 0;
+    text-align: center;
+    display: inline-block;
+}
+.hero-section h1{
+    font-size: 2.635rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 69px;
+}
+.custom-btn{
+ background: #eb7d4b;
+ border:none;
+ padding: 15px 80px;
+ border-bottom: 3px solid #c86a40;
+ margin-bottom: 145px;
+ margin-top: 64px;
+ font-size: 1.125rem;
+ font-weight: 600;
+ transition: 0.8s;
+ -webkit-transition: 0.8s;
+ -moz-transition: 0.8s;
+ -ms-transition: 0.8s;
+ -o-transition: 0.8s;
+}
+.custom-btn:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+/*nav header section end*/
+
+/*SERVICES sectionstart start*/
+#services-section{
+    width: 100%;
+    min-height: 750px;
+    background-color: #17c2a4;
+    overflow: hidden;
+}
+#services-section h2{
+    margin-top: 116px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+#services-section h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+#services-section img{
+    margin-top:70px;
+    margin-bottom: 50px;
+   display: inline-block;
+}
+#services-section p{
+  font-size: 1rem;
+}
+#services-section p2{
+   font-size: 1.125rem;
+   color: #fff;
+}
+
+
+/*SERVICES sectionstart end*/
+/*profile card section satrt*/
+#profile-card-section{
+    width: 100%;
+    overflow: hidden;
+    min-height: 885px;
+    padding-bottom: 30px;
+    background-color: #e7f1f8;
+}
+.social-icon{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icon li{
+    display: inline;
+    margin:5px;
+}
+.social-icon li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0.80rem;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #bdd1df;
+    color: #fff;
+    margin-top: 37px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#profile-card-section h1{
+    font-size: 2.580625rem;
+    margin-top: 118px;
+    color: #3c4761;
+    font-weight: 700;
+}
+#profile-card-section p{
+    font-size: 18.58px;
+    color: #6a7489;
+    font-weight: 400;
+}
+#profile-card-section h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 37px;
+}
+#profile-card-section h3{
+    font-size: 1rem;
+    color: #48c1e9;
+}
+#profile-card-section p1{
+    margin-top: 25px;
+    color: #9099a8;
+}
+#profile-card-section img{
+    margin-top: 80px;
+}
+/**pogress section start*/
+#progress-section{
+    min-height: 635px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+#progress-section img{    
+    margin-top: 90px;
+}
+#progress-section h1{
+    margin-top: 112px;
+    color: #3c4761;
+    font-weight: 700;
+}
+
+/*portfolio-section strat*/
+#portfolio-section{
+    width: 100%;
+    min-height: 1424px;
+    overflow: hidden;
+    background: #ffdd99;
+}
+#portfolio-section h1{
+    margin-top: 120px;
+}
+#portfolio-section p{
+    color: #534f46;
+    font-size: 18px;
+}
+#portfolio-section p1{
+    margin-top: 30px;
+    margin-bottom: 63px;
+    display: inline-block;
+}
+.imgone{
+    margin-top: 60px;
+}
+.btn-activ{
+    background: #fff;
+    margin: 4px;
+}
+.btn-scus{
+    background-color: #ebc985;
+    margin: 4px;
+}
+.p-btn{
+background: #17c2a4;
+color: #fff;
+border:none;
+padding: 15px 60px;
+border-bottom: 3px solid #14a58c;
+margin-bottom: 145px;
+margin-top: 64px;
+font-size: 1.125rem;
+font-weight: 600;
+font-family: 'Titillium Web', sans-serif;
+transition: 0.8s;
+-webkit-transition: 0.8s;
+-moz-transition: 0.8s;
+-ms-transition: 0.8s;
+-o-transition: 0.8s;
+}
+.p-btn:hover{
+   background: transparent;
+   border: 2px solid #fff;
+}
+/*portfolio-section end*/
+/*-POEPLE SAY ABOUT section start*/
+#say-about{
+
+    width: 100%;
+    min-height: 866px;
+    padding: 30px 0;
+    background: #d74680;
+}
+.media{
+    margin-bottom: 145px;
+}
+.media-body {
+    margin-left: 42px;
+}
+#say-about h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 115px;
+}
+#say-about h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+#say-about h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #f7bf94;
+}
+#say-about p1{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+/*-POEPLE SAY ABOUT section end*/
+/*contact form section start*/
+#contact-form-section{
+    width: 100%;
+    min-height: 795px;
+    padding: 30px;
+    background: #3c5499;
+    color: #fff;
+}
+#contact-form-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 116px;
+}
+#contact-form-section p{
+    margin-bottom: 80px;
+}
+.btn-send{
+    background: #30bae7;
+    padding: 12px 84px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 55px;
+    font-size: 1rem;
+}
+.form-custom{
+    width: 60%;
+    margin: 0 auto;
+}
+.form-control{
+    padding: 10px;
+    height: 40px;
+    background: #273a71;
+    border: none;
+    margin-bottom: 10px;
+}
+::placeholder {
+    color: #fff!important;
+    font-size: 1rem;
+  }
+/*contact form section end*/
+
+/*footer section start*/
+footer{
+    width: 100%;
+    height: 116px;
+    background: #344b8e;
+    text-align: center;
+}
+.social{
+    list-style: none;
+    margin: 35px auto;
+    padding: 0;
+}
+.social li{
+    display: inline;
+    text-align: center;
+}
+.social li a{
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+} 
+.twet{
+    color: #30bae7!important;
+}
+/*footer section start*/
+/*For X-small device*/
+
+@media (max-width: 767px) {
+.home{
+    margin-top:20px;
+}
+    
+}
+@media (min-width:768px) and (max-width: 991px) {
+    .home{
+        margin-top:20px;
+    }
+    #services-section{
+    height: auto;
+
+    }
+}
+
+/*coding by Jahed hossain*/
